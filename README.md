@@ -15,7 +15,7 @@
 
 > ⭐️ Thanks to everyone for using Alexa, That is the greatest pleasure we have !
 
-### Asad– History
+### hyine – History
 
 <a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
@@ -49,7 +49,7 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali) ғᴏʀ ᴄᴏɴᴠᴇʀᴛɪɴɢ ɪɴᴛᴏ ᴜsᴇʀʙᴏᴛ.
+- [ᴀsᴀᴅ ᴀʟɪ](https://t.me/HYINE_WEW) ғᴏʀ ᴄᴏɴᴠᴇʀᴛɪɴɢ ɪɴᴛᴏ ᴜsᴇʀʙᴏᴛ.
 - [MetaVoid (Moezilla) ғᴏʀ ᴍᴀɪɴ ᴘʀᴏᴊᴇᴄᴛ](https://github.com/Moezilla)
 
 </details>
