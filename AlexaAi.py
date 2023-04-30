@@ -22,7 +22,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 SESSION_NAME = getenv("SESSION_NAME", None)
-MONGO_URL = getenv("MONGO_URL", None)
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://dayava7312:bqyb4KhZrIH2h7js@cluster0.oehalsl.mongodb.net/?retryWrites=true&w=majority")
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 
