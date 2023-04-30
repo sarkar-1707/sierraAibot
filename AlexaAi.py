@@ -19,9 +19,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-SESSION_NAME = getenv("SESSION_NAME", None)
+API_ID = int(getenv("API_ID", "25800183")
+API_HASH = getenv("API_HASH" "bd6be19588610fa9d7c394a914c3b584")
+SESSION_NAME = getenv("SESSION_NAME", "AQBHwPcpdMimId1rQ2oAH4tXv4bwnH8U_VBk31166YoKYwNzKowzgUPYGkPYhwrBfpqmCIAh3aSu3PhPRkWiOQq01v_rUVkvLL_pIKe3K7NrNaBYwAz0jgQpVnGognuzMpdZq-5_fYd_YaTzUoQGjh5BPCKwCDIxwIhb4O5JRFNuXc9HrVAQz7mRALmxazodXPUaFGvyycE_3x5aWxnk11i10cJYExrBI0jVfiqhaoeE_DtPtskaGC30SGIZFiHyRJIGLj3CgrNkHSp99LKdC8EFI5KzoN2tzQwqSC00jH5xTZJtfMxmaZuqnaSS67MvPFzq3EJNVEX4UWfxiPn9_ldfAAAAAU3jDaEA")
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://dayava7312:bqyb4KhZrIH2h7js@cluster0.oehalsl.mongodb.net/?retryWrites=true&w=majority")
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
@@ -41,9 +41,9 @@ async def chatbot(client, message):
     await message.delete()
     alexaai = await message.reply("🤭🤏✌️")
     await asyncio.sleep(1)
-    await alexaai.edit("**ʙᴏʜᴀᴛ ᴛᴀɪᴊ ʜᴏ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ**")
+    await alexaai.edit("**CHUP TAURI MAI KE**")
     await asyncio.sleep(1)
-    await alexaai.edit("**ɪ ᴀᴍ ᴅᴏɪɴɢ ᴍʏ ʟᴏᴠᴇ 💕**")
+    await alexaai.edit("**FAACC YOU VAI**")
     await alexaai.delete()
     await asyncio.sleep(2)
     umm = await message.reply_sticker("CAACAgIAAxkBAAEForNjAykaq_efq4Wd-9KZv-nNxJRn3AACIgMAAm2wQgO8x8PfoXC1eCkE")
@@ -52,19 +52,14 @@ async def chatbot(client, message):
         photo=f"https://telegra.ph/file/2fabd1c33e888e0533891.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
 💥 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ ᴅʀ ᴀsᴀᴅ ᴀʟɪ 🔥
+ᴏғ ♻️ ʜʏɪɴᴇ </3 🔥
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-┣★ ʜᴇᴀʀᴛ ᴜs  [ʜᴇᴀʀᴛ ❤️](https://t.me/Give_Me_Heart)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/AsadSupport)
-┣★ ᴀʟᴇxᴀ ғᴇᴅ [ғᴇᴅ ʟᴏɢs](https://t.me/AlexaFed_Logs)
-┣★ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/TheTeamAlexa/AlexaAiMachineBot)
-┣★ ɴᴇᴛᴡᴏʀᴋ [ʀᴏᴄᴋs](https://t.me/Shayri_Music_Lovers)
+┣★ ᴄʀᴇᴀᴛᴇʀ [ʜʏɪɴᴇ </3](https://t.me/HYINE_WEW
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Jankari_Ki_Duniya""",
+IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @HYINE_WEW""",
     ) 
 
 
@@ -72,7 +67,7 @@ IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Jankari_Ki_Duniya""",
     filters.command("alive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**ᴀʟᴇxᴀ ᴀɪ ᴜsᴇʀʙᴏᴛ ғᴏʀ ᴄʜᴀᴛᴛɪɴɢ ɪs ᴡᴏʀᴋɪɴɢ**")
+    await message.reply_text(f"**HA VAI JINDA HU**")
 
 @client.on_message(
     filters.command("chatbot off", prefixes=["/", ".", "?", "-"])
